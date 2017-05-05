@@ -12,7 +12,6 @@ return array(
     'Zend\\Uri\\' => array($vendorDir . '/zendframework/zend-uri/src'),
     'Zend\\Test\\' => array($vendorDir . '/zendframework/zend-test/src'),
     'Zend\\Stdlib\\' => array($vendorDir . '/zendframework/zend-stdlib/src'),
-    'Zend\\SkeletonInstaller\\' => array($vendorDir . '/zendframework/zend-skeleton-installer/src'),
     'Zend\\ServiceManager\\' => array($vendorDir . '/zendframework/zend-servicemanager/src'),
     'Zend\\Router\\' => array($vendorDir . '/zendframework/zend-router/src'),
     'Zend\\Mvc\\I18n\\' => array($vendorDir . '/zendframework/zend-mvc-i18n/src'),
@@ -42,4 +41,6 @@ return array(
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Application\\' => array($baseDir . '/module/Application/src'),
+    'ApplicationTest\\' => array($baseDir . '/module/Application/test'),
+    'Album\\' => array($baseDir . '/module/Album/src'),
 );
